@@ -246,8 +246,26 @@ figcaption p b {
     display: flex;
     height: max-content;
     width: 85%;
+    height: 100%;
+
     flex-direction: column-reverse;
   }
+
+  figure img{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    animation: none !important;
+  }
+
+  figure{
+    height: 500px;
+  }
+
+  /* figure{
+    height: 320px;
+  }
+  */
 
   header nav {
     width: 100%;
